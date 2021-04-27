@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-logo {
+  width: 50px;
+}
+
+.header-right a {
+  color: gray;
+  line-height: 70px;
+  padding: 0 25px;
+  float: left;
+  transition: all 0.5s;
+  /* displayblock未適応 */
+}
+
+.header-right a:hover {
+  color: white;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  text-align: center;
+  color: black;
+  background-color: rgb(238, 238, 238);
+  height: 600px;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+}
+
+.doctors h2 {
+  font-size: 30px;
+}
+
+.first-doctor {
+  float: left;
+  width: 50%;
+}
+
+.second-doctor {
+  float: left;
+  width: 50%;
+}
+
+.btn {
+  color: white;
+  border-radius: 4px;
+  padding: 8px 24px;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.question {
+  background-color: rgb(92, 126, 221);
+}
+
+footer {
+  text-align: center;
+}
